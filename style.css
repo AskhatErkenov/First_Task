@@ -1,118 +1,174 @@
 
- a img{
-        width: 20px;
-    }
-    header {
-        width: 100%;
-        display: flex;
-        top: 0px;
-        font-family: 'Bitter', serif;
-    }
-    .headerInfo{
-        float: right;
-        font-family: 'Bitter', serif;
-    }
-    .naming{
-        position: absolute;
-        left: 46%;
-        top: 0px;
-        font-size: 50px;
-        font-family: 'Bitter', serif;
-    }
-    .contactsHeader{
-        position: absolute;
-        top: 0px;
-        right: 10px;
-        font-family: 'Bitter', serif;
-    }
-    .menuHeader{
-        text-align: right;
-        font-size: 20px;
-        list-style: none;
-        position: absolute;
-        top: 0px;
-        right: 10px;
-        font-family: 'Bitter', serif;
-    }
-    footer{
-        width: 100%;
-        bottom: 0px;
-    }
-    .footerInfo{
-        float: right;
-        font-family: 'Bitter', serif;
-    }
-    .menuFooter{
-        text-align: right;
-        font-size: 20px;
-        list-style: none;
-        //position: absolute;
-        width: 220px;
-        font-family: 'Bitter', serif;
-    }
-    .contactsFooter{
-        position: absolute;
-        text-align: left;
-        width: 340px;
-        font-family: 'Bitter', serif;
-    }
-    .companyDescription{
-        text-align: center;
-        font-family: 'Bitter', serif;
-    }
-    .feedBack{
-        text-align: center;
-        font-family: 'Bitter', serif;
-        bottom: 0px;
-        left: -10px;
-        width: 15%;
-    }
-    .carsCategories{
-        text-align: center;
-        font-family: 'Bitter', serif;
-    }
-    td img{
-        width: 100px;
-    }
-    th,td{
-        text-align: center;
-        font-family: 'Bitter', serif;
-    }
-    td{
-        font-size: 20px;
-        font-family: 'Bitter', serif;
-    }
-    .tabs { width: 100%; padding: 0px; margin: 0 auto; }
-    .tabs>input { display: none; }
-    .tabs>div {
-        display: none;
-        padding: 12px;
-        border: 1px solid #C0C0C0;
-        font-family: 'Bitter', serif;
-    }
-    .tabs>label {
-        display: inline-block;
-        padding: 7px;
-        margin: 0 -5px -1px 0;
-        text-align: center;
-        color: #666666;
-        border: 1px solid #C0C0C0;
-        background: #E0E0E0;
-        cursor: pointer;
-        font-family: 'Bitter', serif;
-    }
-    .tabs>input:checked + label {
-        color: #000000;
-        border: 1px solid #C0C0C0;
-        border-bottom: 1px solid #FFFFFF;
-        font-family: 'Bitter', serif;
-        background: #FFFFFF;
-    }
-    #tab_1:checked ~ #tb_1,
-    #tab_2:checked ~ #tb_2,
-    #tab_3:checked ~ #tb_3,
-    #tab_4:checked ~ #tb_4 { display: block; }
-    #tab_5:checked ~ #tb_1,
-    #tab_6:checked ~ #tb_2,
-    #tab_7:checked ~ #tb_3,
-    #tab_8:checked ~ #tb_4 { display: block; }
+a img {
+    width: 20px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    font-family: 'Bitter', serif;
+    position: fixed;
+    top: 0;
+    height: 20%;
+    background-image: url("fon.jpg");
+}
+
+.table-nav {
+    margin: auto;
+
+}
+
+.headerInfo {
+    float: right;
+    font-family: 'Bitter', serif;
+}
+
+.naming {
+    position: absolute;
+    left: 46%;
+    top: 0px;
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+}
+
+.contactsHeader {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.menuHeader {
+    text-align: right;
+    font-size: 20px;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.companyDescription {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.feedBack {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    bottom: 0px;
+    left: -10px;
+    width: 15%;
+}
+
+.carsCategories {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+td img {
+    width: 100px;
+}
+
+th, td {
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+td {
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+}
+
+.tabs {
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.tabs > input {
+    display: none;
+}
+
+.tabs > div {
+    display: none;
+    padding: 12px;
+    border: 1px solid #C0C0C0;
+    font-family: 'Bitter', serif;
+}
+
+.tabs > label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #666666;
+    border: 1px solid #C0C0C0;
+    background: #E0E0E0;
+    cursor: pointer;
+    font-family: 'Bitter', serif;
+}
+
+.tabs > input:checked + label {
+    color: #000000;
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Bitter', serif;
+    background: #FFFFFF;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=file], textarea, select {
+    margin-left: 25%;
+    margin: 10px 0;
+    padding: 14px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    width: 40%;
+}
+
+button {
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    padding-top: 190px;
+}
+
+ footer{
+     background: white;
+     font-family: 'Bitter', serif;
+     size: 24px;
+ }
+#tab_1:checked ~ #tb_1,
+#tab_2:checked ~ #tb_2,
+#tab_3:checked ~ #tb_3,
+#tab_4:checked ~ #tb_4 {
+    display: block;
+}
+
+#tab_5:checked ~ #tb_1,
+#tab_6:checked ~ #tb_2,
+#tab_7:checked ~ #tb_3,
+#tab_8:checked ~ #tb_4 {
+    display: block;
+}
