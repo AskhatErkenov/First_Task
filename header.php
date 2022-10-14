@@ -3,7 +3,7 @@
 <head >
     <!--Название вкладки сайта-->
     <link rel="stylesheet"  href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="icon" href="logo_auto.png">
     <?php $title = 'Эркенов Асхат Артурович 211-362 3 ЛР' ?>
     <title><?php echo $title ?></title>
@@ -14,8 +14,8 @@
 
     <h1 class="my-0 mr-md-auto font-weight-normal"><img src="logo_auto.png" width="200">Auto+</h1>
     <?php
-    $menu = ['Главная', 'Контакты', 'Вход'];
-    $menu_id = ['index.php', 'feedback_form.php', 'autorization.php']
+    $menu = ['Главная', 'Контакты', 'Вход', 'Картинки'];
+    $menu_id = ['index.php', 'feedback_form.php', 'autorization.php', 'image_db.php']
     ?>
     <nav class="my-2 my-md-0 mr-md-3">
             <?php for($i = 0; $i < count($menu); $i++){ ?>

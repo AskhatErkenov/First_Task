@@ -1,4 +1,3 @@
-
 a img {
     width: 20px;
 }
@@ -128,7 +127,17 @@ input[type=text], input[type=password], input[type=email], input[type=file], tex
     width: 40%;
 }
 
+.select{
+    margin: 10px 0;
+    padding: 14px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    width: 100%;
+}
+
 button {
+    padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
@@ -154,11 +163,11 @@ body {
     padding-top: 190px;
 }
 
- footer{
-     background: white;
-     font-family: 'Bitter', serif;
-     size: 24px;
- }
+footer{
+    background: white;
+    font-family: 'Bitter', serif;
+    size: 24px;
+}
 #tab_1:checked ~ #tb_1,
 #tab_2:checked ~ #tb_2,
 #tab_3:checked ~ #tb_3,
