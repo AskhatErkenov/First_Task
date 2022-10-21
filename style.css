@@ -9,7 +9,7 @@ header {
     position: fixed;
     top: 0;
     height: 20%;
-    background-image: url("fon.jpg");
+    background: url("fon1.png") no-repeat;
 }
 
 .table-nav {

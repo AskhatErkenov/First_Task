@@ -9,8 +9,9 @@ $result = mysqli_query($mysql, "SELECT * FROM `image`");
 <main class="main">
     <table border="10" ; align="center">
         <tr>
+            <th>id</th>
             <th>Фото</th>
-            <th>Пароль</th>
+            <th>Модель</th>
         </tr>
         <?php
         for ($data = []; $name = mysqli_fetch_assoc($result); $data[] = $name) ;

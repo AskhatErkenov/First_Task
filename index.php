@@ -50,7 +50,7 @@ else{
             <label for="tab_4"><h2>Мотоциклы</h2></label>
         <!--Таблица с автомобилями, грузовиками и мотоциклами-->
             <div id="tb_1">
-<table  border="1"; align="center" style="background:black; color: white">
+<table  border="1"; align="center" style="background:black; color: white; width: 700px">
     <tr> <th>Фото</th> <th>Модель</th> <th>Год выпуска</th> <th>Цена</th> </tr>
     <tr><td colspan="4">Машины</td></tr>
     <?php array_map(function($a, $b, $c, $d) { echo "<tr><td><img src='$a'style='width: 200px'></td><td>$b</td><td>$c</td><td>$d</td></tr>\n"; }, $c_ph, $car_model, $car_year, $car_price);?>
@@ -61,21 +61,21 @@ else{
 </table>
             </div>
             <div id="tb_2" >
-                <table border="1"; align="center" style="background:black; color: white">
+                <table border="1"; align="center" style="background:black; color: white; width: 700px">
                     <tr> <th>Фото</th> <th>Модель</th> <th>Год выпуска</th> <th>Цена</th> </tr>
                     <tr><td colspan="4">Машины</td></tr>
                     <?php array_map(function($a, $b, $c, $d) { echo "<tr><td><img src='$a'style='width: 200px'></td><td>$b</td><td>$c</td><td>$d</td></tr>\n"; }, $c_ph, $car_model, $car_year, $car_price);?>
                 </table>
             </div>
             <div id="tb_3">
-                <table border="1"; align="center" style="background:black; color: white">
+                <table border="1"; align="center" style="background:black; color: white; width: 700px">
                     <tr> <th>Фото</th> <th>Модель</th> <th>Год выпуска</th> <th>Цена</th> </tr>
                     <tr><td colspan="4">Грузовые</td></tr>
                     <?php array_map(function($a, $b, $c, $d) { echo "<tr><td><img src='$a'style='width: 200px'></td><td>$b</td><td>$c</td><td>$d</td></tr>\n"; }, $t_ph, $track_model, $track_year, $track_price);?>
                 </table>
             </div>
             <div id="tb_4">
-                <table border="1"; align="center" style="background:black; color: white">
+                <table border="1"; align="center" style="background:black; color: white; width: 700px">
                     <tr> <th>Фото</th> <th>Модель</th> <th>Год выпуска</th> <th>Цена</th> </tr>
                     <tr><td colspan="4">Мотоциклы</td></tr>
                     <?php array_map(function($a, $b, $c, $d) { echo "<tr><td><img src='$a'style='width: 200px'></td><td>$b</td><td>$c</td><td>$d</td></tr>\n"; }, $b_ph, $bike_model, $bike_year, $bike_price);?>

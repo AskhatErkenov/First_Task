@@ -12,10 +12,10 @@
 
 <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
 
-    <h1 class="my-0 mr-md-auto font-weight-normal"><img src="logo_auto.png" width="200">Auto+</h1>
+    <h1 class="my-0 mr-md-auto font-weight-normal">Auto+</h1>
     <?php
-    $menu = ['Главная', 'Контакты', 'Вход', 'Картинки'];
-    $menu_id = ['index.php', 'feedback_form.php', 'autorization.php', 'image_db.php']
+    $menu = ['Главная', 'Контакты', 'Вход', 'Картинки', 'JavaScript'];
+    $menu_id = ['index.php', 'feedback_form.php', 'autorization.php', 'image_db.php', 'javaScript.php']
     ?>
     <nav class="my-2 my-md-0 mr-md-3">
             <?php for($i = 0; $i < count($menu); $i++){ ?>
