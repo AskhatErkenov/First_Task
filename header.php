@@ -14,8 +14,8 @@
 
     <h1 class="my-0 mr-md-auto font-weight-normal">Auto+</h1>
     <?php
-    $menu = ['Главная', 'Контакты', 'Вход', 'Картинки', 'JavaScript'];
-    $menu_id = ['index.php', 'feedback_form.php', 'autorization.php', 'image_db.php', 'javaScript.php']
+    $menu = ['Главная', 'Контакты', 'Вход', 'Картинки', 'JavaScript', 'Калькулятор'];
+    $menu_id = ['index.php', 'feedback_form.php', 'autorization.php', 'image_db.php', 'javaScript.php', 'calculate.php']
     ?>
     <nav class="my-2 my-md-0 mr-md-3">
             <?php for($i = 0; $i < count($menu); $i++){ ?>

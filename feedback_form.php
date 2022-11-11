@@ -19,8 +19,8 @@ require('header.php'); ?>
                 $inset = $_GET['inset'];
             ?>
             <div>
-                <input style="margin-left: 30%" name="name" type="text"
-                       class="contact-form__input contact-form__input_name" value="<?php echo $name ?>">
+                <input  style="margin-left: 30%" name="name" type="text"
+                       class="name" value="<?php echo $name ?>">
             </div>
             <div>
                 <input style="margin-left: 30%" name="email" type="email"

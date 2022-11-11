@@ -116,18 +116,18 @@ td {
     background: #FFFFFF;
 }
 
-input[type=text], input[type=password], input[type=email], input[type=file], textarea, select {
+.log, .name, input[type=password], input[type=email], input[type=file], textarea, select {
     margin-left: 25%;
     margin: 10px 0;
     padding: 14px 20px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #e4e4e4;
     box-sizing: border-box;
     font-family: 'Bitter', serif;
     width: 40%;
 }
 
-.select{
+.select {
     margin: 10px 0;
     padding: 14px 20px;
     display: inline-block;
@@ -163,11 +163,80 @@ body {
     padding-top: 190px;
 }
 
-footer{
-    background: white;
+footer {
+    background: #ffffff;
     font-family: 'Bitter', serif;
     size: 24px;
 }
+
+.calc-container{
+    margin: auto;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: Arial;
+    /*padding: 18px;*/
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas:
+            "digit_7  digit_8 digit_8 operation_plus operation_minus";
+" digit_4 digit_5 digit_6 operation_multiplication  operation_division";
+"digit_1 digit_2 digit_3 bracket_closing bracket_open";
+"digit_0 digit_point result clear";
+
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    justify-items: center;
+    position: relative;
+}
+
+.buttons::after {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: black;
+    position: absolute;
+    right: 155px;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    background: #d3d3d3;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+}
+
+.key:hover {
+    filter: brightness(110%);
+}
+
+
+
+.inp{
+    height: 125px;
+    width: 398.5px;
+    padding: 10px;
+    display: grid;
+    margin-bottom: 20px;
+    background: red;
+    border-top: 1px solid red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 4rem;
+    text-align: right;
+    color: white;
+}
+
+
 #tab_1:checked ~ #tb_1,
 #tab_2:checked ~ #tb_2,
 #tab_3:checked ~ #tb_3,

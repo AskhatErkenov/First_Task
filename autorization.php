@@ -4,7 +4,7 @@
 <form method="post" action="db_connecting.php">
     <div>
         <div>
-            <input style="margin-left: 30%" type="text" placeholder="Логин" name="login"
+            <input class = "log" style="margin-left: 30%" type="text" placeholder="Логин" name="login"
         </div>
         <div>
             <input style="margin-left: 30%" type="password" placeholder="Пароль" name="password">
